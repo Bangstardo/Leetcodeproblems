@@ -1,0 +1,43 @@
+// Thanks to Neetcode for the inspo 
+// used big Os beacause of haha 
+
+O(1) {
+    Does not matter how big the in putsize grows the run time will remain the same 
+    Constant time operations:
+
+    #Array
+        nums = [1, 2, 3]
+        nums.append(4);      // push to end 
+        nums.pop();          // remove from end
+        nums[0];             // look ups 
+        nums[1];
+        nums[2];
+
+    #HashMap / Set 
+        hashMap = {};
+        hashMap["key"] = 10;             // insert
+        print("key" in hashMap);         // lookup
+        print(hashMap["key"]);           // lookup
+        hashMap.pop("key");              // remove
+}
+
+O(n) {
+    Linear functions basically the more data you have the more runtime it will take 
+    for more about this refer back to linear algebra come on you know this 
+    Examples:
+
+        #Array
+            nums = [1, 2, 3];            // example list
+            sum(nums)                    // sum of array
+            for n in nums:              // loops 
+                print(n);
+
+            nums.insert (1, 100);                // middle insertions 
+            nums.remove(100);                    // middle erases 
+            print(100 in nums);                  // search
+
+            import heapq           
+            heapq.heapify(nums)         // heap building
+
+            // sometimes nested loops can be 0(n)
+}
