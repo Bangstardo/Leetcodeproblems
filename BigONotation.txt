@@ -22,7 +22,7 @@ O(1) {
 }
 
 O(n) {
-    Linear functions basically the more data you have the more runtime it will take 
+    Linear functions basically the more data you have the longer the runtime will be 
     for more about this refer back to linear algebra come on you know this 
     Examples:
 
@@ -39,5 +39,5 @@ O(n) {
             import heapq           
             heapq.heapify(nums)         // heap building
 
-            // sometimes nested loops can be 0(n)
+            // sometimes nested loops can be O(n)
 }
