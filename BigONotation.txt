@@ -41,3 +41,33 @@ O(n) {
 
             // sometimes nested loops can be O(n)
 }
+
+O(n^2) {
+    For two dimensional arrays. it's n^2 cause it traverses through a 2 dimensional matrix.
+    Examples:
+
+        #TraversingMatrixArray
+
+            nums = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+            for i in range(len(nums)):
+                fo j in range(len(nums[i])):
+                    print(nums[i][j]);
+        
+        #GetEveryPair
+
+            nums = [1, 2, 3]
+            for i in range(i + 1, len(nums)):
+                print(nums[i], nums[j]);
+
+        // works with insertion sort 
+    
+
+
+
+
+
+
+
+
+
+}
